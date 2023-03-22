@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+  <link type="text/css" rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link type="text/css" rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@3.2.7/dist/leaflet-routing-machine.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+  <link type="text/css" rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine-html.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/boot.min.js"></script>
+  <title>Venus Estilistas</title>
+
+</head>
+
+<body>
+    <header>
+      <nav class="menu">
+        <ul>
+         <img class="logo" src="imagen.jpg/logo..jpg" alt="">
+          <li><a href="tabla.html">CORTES PARA EL</a></li>
+          <li><a href="#">CORTES PARA ELLA</a></li>
+          <li><a href="#">NUESTROS SERVICIOS</a></li>
+        </ul>
+        <a href="#"><img src="imagen.jpg/instagram.png" alt=""></a>
+        <a href="https://www.facebook.com/people/Venus-Estilistas/100063595029311/?sk=about&locale=es_ES"><img src="imagen.jpg/facebook.png" alt=""></a>
+      </nav>
+    </header>
+    <section >
+        <img class="girl" src="imagen.jpg/girl_jpg.jpg" alt="imagen.jpg/girl.jpg">
+    <h1 id="colorines">Venus estilistas!</h1>
+    <p>Venus Peluqueros es un salón de peluquería ubicado en Leganés.<br> Es uno de los centros más exclusivos de la ciudad. Destaca por sus personalizados y exclusivos tratamientos <br> y por su especialización en técnicas de color como balayage, highlights, bronde, babylights, melting, glossing… En Venus Peluqueros <br> disfrutarás de una experiencia única donde primará siempre la búsqueda de la satisfacción y disfrute de nuestros clientes.</p>
+    </section>
+    <section id="img-galeria">
+        <div class="contenedor-uno">
+            
+            <h2>Visita nuestra galeria de imagenes:</h2>
+            
+            <img id="img" src="imagen.jpg/pelu.jpg" alt="Interior peluqueria">
+            <img id="img" src="imagen.jpg/pelu2.jpg" alt="Interior peluqueria">
+            <img id="img" src="imagen.jpg/pelu1.jpg" alt="Interior peluqueria">
+            
+            <p>Aqui es donde e pasado muchos años de mi vida<br> y queria mostraros lo que yo hacia antes de proponerme este cambio. </p>
+        </div>
+    </section>
+    <section id="img-galeria">
+        <div class="contenedor-uno">
+            
+            <h2>Quienes Somos:</h2>
+            
+            <img id="img" src="imagen.jpg/foto1.jpg" alt="Interior peluqueria">
+            
+            <img id="img" src="imagen.jpg/foto4.jpg" alt="Interior peluqueria">
+            
+            <img id="img" src="imagen.jpg/foto6.jpg" alt="Interior peluqueria">
+            <p>Aqui es donde e pasado muchos años de mi vida<br> y queria mostraros lo que yo hacia antes de proponerme este cambio </p>
+        </div>
+    </section>
+   
+        
+    
+    <ul class="button">
+     <a href="https://www.redtransporte.com/madrid/autobuses-interurbanos/485-madrid-leganes.html"><il> <button>Parada de Bus</il></a></button><br>
+     <a href="https://www.redtransporte.com/madrid/cercanias-renfe/linea-c-5.html"><il> <button> Estación Cercanias</il></a></button><br>
+     <a href=""><il><button>  Peluqueria</il></a></button>
+    </ul>
+    <div id="map"></div>
+    <div class="horario">  
+      <ul >
+        <li>Horario de apertura</li>
+        <li>De lun:	10:00-14:00, 16:00-20:00</li>
+        <li>A vie:	10:00-14:00, 16:00-20:00</li>
+        <li> sáb:	10:00-14:00</li>
+        <li> dom:	Cerrado</li>
+      </ul>
+    </div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet-src.js"></script>
+		<script src="https://unpkg.com/leaflet-routing-machine@3.2.7/dist/leaflet-routing-machine.js"></script>
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+		<script src="script.js"></script>
+    <script src="index.spec.js"></script>
+</body>
+</html>
